@@ -1,0 +1,12 @@
+/home/flicko/.config/hypr/component/source/swww/target/debug/deps/simplelog-4e1d6c8d2c41cbf5.rmeta: /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/lib.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/config.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/mod.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/comblog.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/logging.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/simplelog.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/termlog.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/writelog.rs
+
+/home/flicko/.config/hypr/component/source/swww/target/debug/deps/simplelog-4e1d6c8d2c41cbf5.d: /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/lib.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/config.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/mod.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/comblog.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/logging.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/simplelog.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/termlog.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/writelog.rs
+
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/lib.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/config.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/mod.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/comblog.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/logging.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/simplelog.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/termlog.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/simplelog-0.12.0/src/loggers/writelog.rs:

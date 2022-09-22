@@ -1,4 +1,3 @@
-source
-latest_notif
 test.log
-dynamic_out.txt
+store/dynamic_out.txt
+store/latest_notif

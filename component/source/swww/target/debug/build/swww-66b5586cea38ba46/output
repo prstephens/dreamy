@@ -1,0 +1,5 @@
+cargo:warning=generated shell completion file: "completions/swww.bash"
+cargo:warning=generated shell completion file: "completions/_swww"
+cargo:warning=generated shell completion file: "completions/swww.fish"
+cargo:warning=generated shell completion file: "completions/swww.elv"
+cargo:warning=ran fix_zsh_completion.sh script.

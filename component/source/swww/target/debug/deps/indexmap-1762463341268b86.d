@@ -1,0 +1,13 @@
+/home/flicko/.config/hypr/component/source/swww/target/debug/deps/indexmap-1762463341268b86.rmeta: /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/lib.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/macros.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/equivalent.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/mutable_keys.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/util.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/map.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/map/core.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/map/core/raw.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/set.rs
+
+/home/flicko/.config/hypr/component/source/swww/target/debug/deps/indexmap-1762463341268b86.d: /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/lib.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/macros.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/equivalent.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/mutable_keys.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/util.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/map.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/map/core.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/map/core/raw.rs /home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/set.rs
+
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/lib.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/macros.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/equivalent.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/mutable_keys.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/util.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/map.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/map/core.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/map/core/raw.rs:
+/home/flicko/.cargo/registry/src/github.com-1ecc6299db9ec823/indexmap-1.9.1/src/set.rs:

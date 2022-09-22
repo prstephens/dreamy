@@ -18,5 +18,5 @@ dat = {
     "desktop-entry":os.getenv("DUNST_DESKTOP_ENTRY"),
     "stack-tag":os.getenv("DUNST_STACK_TAG"),
 }
-with open(f"{Path.home()}/.config/hypr/latest_notif", "wb") as f:
+with open(f"{Path.home()}/.config/hypr/store/latest_notif", "wb") as f:
     pickle.dump(dat, f)

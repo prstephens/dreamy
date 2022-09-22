@@ -7,8 +7,9 @@ import pickle
 import time
 import threading
 
+OUT = f"{Path.home()}/.config/hypr/store/dynamic_out.txt"
+# PREV_PATH = f"{Path.home()}/.config/hypr/store/prev.txt"
 prev = None
-OUT = f"{Path.home()}/.config/hypr/scripts/tools/dynamic_out.txt"
 
 def print(ar):
     with open(OUT,"w") as f:
@@ -21,22 +22,28 @@ global PAUSE_MEDIA
 PAUSE_MEDIA = False
 
 def notif_watcher():
-    with open(f"{Path.home()}/.config/hypr/latest_notif","rb") as f:
+    with open(f"{Path.home()}/.config/hypr/store/latest_notif","rb") as f:
         new = pickle.load(f)
         global prev
         if new != prev:
-            global PAUSE_MEDIA
-            PAUSE_MEDIA = True
-            doc = {
-                    "class":"notif",
-                    "text":new["summary"],
-                    "tooltip":"notification"
-            }
-            print(doc)
-            time.sleep(3)
-            print('{"class":"none","text":""}')
-            PAUSE_MEDIA = False
-            prev = new
+                print(json.dumps({"class":"none","text":""}))
+                global PAUSE_MEDIA
+                PAUSE_MEDIA = True
+                urgency = "low"
+                if new["urgency"] == "CRITICAL":
+                    urgency = "critical"
+                elif new["urgency"] == "NORMAL":
+                    urgency = "normal"
+                doc = {
+                        "class":urgency,
+                        "text":f'[{new["app_name"]}]   {new["summary"]}',
+                        "tooltip":"notification"
+                }
+                print(doc)
+                time.sleep(3)
+                print({"class":"none","text":""})
+                PAUSE_MEDIA = False
+                prev = new
 
 
 def start_watcher():
@@ -61,6 +68,7 @@ with open("test.log", "wb") as f:
         "waybar-mpris --position --autofocus".split(),
          stdout=subprocess.PIPE
     )
+    print(json.dumps({"class":"none","text":""}))
     for line in iter(lambda: process.stdout.readline().decode("utf-8"), b""):
         dat = json.loads(line)
         if not PAUSE_MEDIA:
@@ -68,7 +76,7 @@ with open("test.log", "wb") as f:
                 dat["text"] = dat["text"].replace(" ", "").replace("", "")
                 print(dat)
             else:
-                print('{"class":"none","text":""}')
+                print({"class":"none","text":""})
 
 t.join()
 # d.join()
